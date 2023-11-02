@@ -161,7 +161,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS1331 MOC.md",
+                "file": "010 CS1331 MOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS1331 MOC.md",
+                "file": "010 CS1331 MOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS1331 Exam 2 Recitation Notes.md",
+                "file": "010 CS1331 Exam 2 Recitation Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS1331 MOC.md",
+                "file": "010 CS1331 Exam 2 Recitation Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS1331 MOC.md",
+                "file": "010 CS1331 Exam 2 Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS1331 MOC.md",
+                "file": "010 CS1331 Exam 2 Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS1331 MOC.md"
+                "file": "010 CS1331 Exam 2 Recitation Notes.md"
               }
             }
           },
@@ -339,14 +339,29 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "f4cb27f0377287d3",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "8fa3b9632453aa08",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -365,12 +380,13 @@
   },
   "active": "2e9af3ee4d4156b1",
   "lastOpenFiles": [
-    "CS1331 Exam 3 Recitation Notes.md",
-    "CS1331 Exam 2 Recitation Notes.md",
-    "CS1331 MOC.md",
-    "CS1331 Exam 1 Recitation Notes.md",
-    "Pasted image 20230915112944.png",
+    "010 CS1331 Exam 3 Recitation Notes.md",
     "home.md",
+    "Main Driver.md",
+    "010 CS1331 MOC.md",
+    "010 CS1331 Exam 1 Recitation Notes.md",
+    "010 CS1331 Exam 2 Recitation Notes.md",
+    "Pasted image 20230915112944.png",
     "Pasted image 20231018011945.png",
     "Pasted image 20231018011447.png",
     "Pasted image 20231018011355.png",

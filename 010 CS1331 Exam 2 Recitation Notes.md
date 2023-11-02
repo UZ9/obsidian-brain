@@ -1,4 +1,4 @@
-[[CS1331 MOC]]
+[[010 CS1331 MOC]]
 
 # (Useful) things Landry has said on stream
 ### Clarification on Hashcode knowledge needed for exam

@@ -10,5 +10,6 @@
   "dataview",
   "obsidian-annotator",
   "obsidian-excalidraw-plugin",
-  "obsidian-book-search-plugin"
+  "obsidian-book-search-plugin",
+  "obsidian-git"
 ]
