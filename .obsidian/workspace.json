@@ -254,7 +254,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5124969482422
+    "width": 407.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -372,6 +373,11 @@
   },
   "active": "2e9af3ee4d4156b1",
   "lastOpenFiles": [
+    "Pasted image 20231102165026.png",
+    "Pasted image 20231102164611.png",
+    "Pasted image 20231102164503.png",
+    "Pasted image 20231102163300.png",
+    "Pasted image 20231102163241.png",
     "010 CS1331 Exam 3 Recitation Notes.md",
     "Pasted image 20231102155328.png",
     "010 CS1331 Exam 2 Recitation Notes.md",
@@ -384,10 +390,6 @@
     "Pasted image 20231018011945.png",
     "Pasted image 20231018011447.png",
     "Pasted image 20231018011355.png",
-    "Pasted image 20231018010528.png",
-    "Pasted image 20231018004650.png",
-    "Pasted image 20231018003502.png",
-    "Pasted image 20231018002936.png",
     "netlify.toml",
     "New Text Document.txt",
     "Recitation Slides - Important or Tricks.pdf",

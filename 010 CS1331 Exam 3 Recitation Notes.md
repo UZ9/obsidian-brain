@@ -160,9 +160,117 @@ public class Dog implements Comparable<Dog> {
 ```
 
 ### ArrayList
+IMPORT:
+```java
+import java.util.ArrayList;
+```
+
+ArrayList = implements **List**
+- List - **ordered** sequence of elements where duplicates **are** allowed
+
+- Data is **stored in an array** behind the scenes
+- Data is stored **contiguously in memory** (no null elements between non-null elements)
+
+> [!important] On the topic of "contiguous in memory"
+> The data values are stored side by side in memory, but in the case of a list of reference types (e.g. HotDog), this is **only the references** that are stored contiguously, NOT the actual values themselves
+
+- Difference between `size` and `length/capacity`:
+	- **size** - number of data **actually stored** in structure
+	- **capacity** - maximum number of data that can be stored
+
+ArrayList does **not** use brackets for indexing (like arrays), but instead methods.
+
+##### Useful Methods & Diagrams
+![[Pasted image 20231102163241.png]]
+
+![[Pasted image 20231102163300.png]]
+
+
+##### Initializing ArrayList
+- You can technically declare an ArrayList with no type:
+
+```java
+ArrayList a = new ArrayList(); // stores Object types
+```
+
+Problems:
+- Prone to casting errors (not type-safe)
+- You would have to create a class for every type, e.g. `IntegerArrayList`, `StringArrayList` requiring code repetiton
+
+Solution: **GENERICS!**
+
 ### Generics -- Basics
+Note: Generics will be covered more thoroughly in a later lecture
+
+Example: ArrayList is a **generic** class in Java:
+
+```java
+public class ArrayList<E> ...
+```
+
+- `<E>` is specifying that ArrayList will have some sort of Type provided when initialized, and can be used in the internals of ArrayList
+
+*Trick Question*: Make sure to review the different ways of initializing an ArrayList.
+
+Example implementation:
+```java
+// ArrayList will contain objects of type String
+// IMPORTANT NOTE: Type can be assumed from the left, it does NOT have to be in the brackets on the right
+ArrayList<String> list = new ArrayList<>();
+```
+
+**Comparable** is an example of a generic interface:
+```java
+// T is the generic type, allowing us to avoid the repetitive type safety checks (like you see in equals)
+public interface Comparable<T> ...
+```
+
+
 ### Asymptotics/Big-O
+Asymptotics - "growth rate of number of operations as input size grows"
+- Measures **efficiency** of algorithm, NOT running time
+
+Big-O - example of asymptotic notation
+- **Upper bound** of growth rate (what is the **maximum** time this method could take?)
+- Ignores non-dominating terms and constants
+	- **Non-dominating**: insignificant as input size increases
+	- **Multiplicative constants**: no impact on growth rate
+- Example: $O(n^2)$ = as input size grows linearly, total operations grows by factor of $n^2$ 
+
+##### Very useful diagram (potentially memorize)
+![[Pasted image 20231102164503.png]]
+
+##### Determining Big-O of code?
+- Calculate amount of operations performed on each element in the input
+
+##### Big-O Example
+![[Pasted image 20231102164611.png]]
+
 ### Searching
+Searching = iterate (go through) and find an element in list
+
+##### Linear Search
+TIME COMPLEXITY: $O(n)$
+- Iterate through list, checking every element
+- Reminder: Big-O is the **worst case scenario**
+
+##### Binary Search
+TIME COMPLEXITY: $O(log(n))$
+**REQUIRES ARRAY TO BE SORTED!!!**
+
+- Much faster than linear search
+
+Steps:
+1. Find "middle element" of list. Compare middle element to target. If equal, element has been found. Otherwise:
+2. Determine whether target element is on left or right side of middle element
+	1. If target element < middle element, the target element must lie on the left half
+	2. If target element > middle element, the target element must lie on the right half
+3. Repeat steps 1 and 2 until:
+	1. The element is found, OR
+	2. There are no elements to compare with
+
+![[Pasted image 20231102165026.png]]
+
 ### Sorting 
 
 # Recitation 10
