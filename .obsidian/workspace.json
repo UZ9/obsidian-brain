@@ -156,6 +156,54 @@
             }
           },
           {
+            "id": "30a9120aa8bf81ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS1331 MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1312067fa4d97cfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS1331 MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c94703287ffbf54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS1331 Exam 2 Recitation Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e9af3ee4d4156b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS1331 MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6335a20064dc6f66",
             "type": "leaf",
             "state": {
@@ -164,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -230,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "CS1331 MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home.md",
+                "file": "CS1331 MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "CS1331 MOC.md"
               }
             }
           },
@@ -315,36 +363,37 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "75c4ffc21460e1aa",
+  "active": "2e9af3ee4d4156b1",
   "lastOpenFiles": [
-    "netlify.toml",
-    "New Text Document.txt",
-    "home.md",
-    "Pasted image 20231018011355.png",
-    "Pasted image 20231018011447.png",
-    "Pasted image 20231018011945.png",
-    "Recitation Slides - Important or Tricks.pdf",
-    "Habits/Pomodoro Tracker.md",
-    "The Biological Effects of Childhood Trauma.md",
-    "2023-11-01.md",
     "CS1331 Exam 3 Recitation Notes.md",
-    "2023-10-31.md",
     "CS1331 Exam 2 Recitation Notes.md",
-    "2023-10-25.md",
-    "2023-09-26 - Landry Quotes.md",
-    "2023-10-24.md",
+    "CS1331 MOC.md",
     "CS1331 Exam 1 Recitation Notes.md",
-    "2023-10-19.md",
-    "004 Habits/Productivity Tracker.md",
-    "Untitled 4.md",
-    "2023-10-18.md",
+    "Pasted image 20230915112944.png",
+    "home.md",
+    "Pasted image 20231018011945.png",
+    "Pasted image 20231018011447.png",
+    "Pasted image 20231018011355.png",
     "Pasted image 20231018010528.png",
     "Pasted image 20231018004650.png",
     "Pasted image 20231018003502.png",
     "Pasted image 20231018002936.png",
     "Pasted image 20231018000829.png",
     "Pasted image 20231018000416.png",
-    "Pasted image 20231018000021.png",
+    "netlify.toml",
+    "New Text Document.txt",
+    "Recitation Slides - Important or Tricks.pdf",
+    "Habits/Pomodoro Tracker.md",
+    "The Biological Effects of Childhood Trauma.md",
+    "2023-11-01.md",
+    "2023-10-31.md",
+    "2023-10-25.md",
+    "2023-09-26 - Landry Quotes.md",
+    "2023-10-24.md",
+    "2023-10-19.md",
+    "004 Habits/Productivity Tracker.md",
+    "Untitled 4.md",
+    "2023-10-18.md",
     "Untitled 3.md",
     "Untitled 2.md",
     "2023-10-17.md",
@@ -353,8 +402,6 @@
     "2023-09-21.md",
     "2023-10-13.md",
     "2023-10-12.md",
-    "2023-10-06.md",
-    "2023-10-05.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "008 Books",
@@ -363,7 +410,6 @@
     "Excalidraw",
     "007 Resources/PDF/biological-effects-childhood-trauma.pdf",
     "007 Resources/PDF/Unconfirmed 648499.crdownload",
-    "007 Resources/PDF",
-    "007 Resources/New folder"
+    "007 Resources/PDF"
   ]
 }
