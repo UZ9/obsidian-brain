@@ -187,10 +187,11 @@
             "id": "2e9af3ee4d4156b1",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -253,8 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5124969482422,
-    "collapsed": true
+    "width": 407.5124969482422
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -270,6 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,6 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +309,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "010 CS1331 Exam 3 Recitation Notes.md"
+              }
             }
           },
           {
