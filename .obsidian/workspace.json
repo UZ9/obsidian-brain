@@ -196,6 +196,18 @@
             }
           },
           {
+            "id": "89707ba67ad86165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automated Driver Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6335a20064dc6f66",
             "type": "leaf",
             "state": {
@@ -204,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -271,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
+                "file": "Automated Driver Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
+                "file": "Automated Driver Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md"
+                "file": "Automated Driver Testing.md"
               }
             }
           },
@@ -371,14 +383,15 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "2e9af3ee4d4156b1",
+  "active": "89707ba67ad86165",
   "lastOpenFiles": [
+    "010 CS1331 Exam 3 Recitation Notes.md",
+    "Automated Driver Testing.md",
     "Pasted image 20231102165026.png",
     "Pasted image 20231102164611.png",
     "Pasted image 20231102164503.png",
     "Pasted image 20231102163300.png",
     "Pasted image 20231102163241.png",
-    "010 CS1331 Exam 3 Recitation Notes.md",
     "Pasted image 20231102155328.png",
     "010 CS1331 Exam 2 Recitation Notes.md",
     "010 CS1331 MOC.md",
@@ -389,7 +402,6 @@
     "Pasted image 20230915112944.png",
     "Pasted image 20231018011945.png",
     "Pasted image 20231018011447.png",
-    "Pasted image 20231018011355.png",
     "netlify.toml",
     "New Text Document.txt",
     "Recitation Slides - Important or Tricks.pdf",

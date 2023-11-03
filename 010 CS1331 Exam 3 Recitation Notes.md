@@ -272,6 +272,11 @@ Steps:
 ![[Pasted image 20231102165026.png]]
 
 ### Sorting 
+- Arrange data into some sort of order (e.g. least to greatest, greatest to least)
+- Often used to help make searching faster (e.g. binary search requires sorting)
+
+#
+
 
 # Recitation 10
 ### Exceptions
