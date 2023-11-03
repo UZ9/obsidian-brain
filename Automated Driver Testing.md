@@ -2,6 +2,7 @@
 
 Written by Ryder Johnson, 11/3/23
 
+![[Pasted image 20231103184513.png]]
 ### Introduction
 CS1331 Homework assignments can be unforgiving. From what feels like hundreds of possible constructors to the many, *many* edge cases, thoroughly testing each component has exponentially increased with every week--with a need for a streamlined process.
 
