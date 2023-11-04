@@ -211,12 +211,16 @@
             "id": "6335a20064dc6f66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Automated Driver Testing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -266,8 +270,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5124969482422,
-    "collapsed": true
+    "width": 407.5124969482422
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -383,13 +386,13 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "89707ba67ad86165",
+  "active": "6335a20064dc6f66",
   "lastOpenFiles": [
+    "Automated Driver Testing.md",
     "Pasted image 20231103190623.png",
     "Pasted image 20231103184513.png",
     "Pasted image 20231103184426.png",
     "010 CS1331 Exam 3 Recitation Notes.md",
-    "Automated Driver Testing.md",
     "Pasted image 20231102165026.png",
     "Pasted image 20231102164611.png",
     "Pasted image 20231102164503.png",
@@ -402,7 +405,6 @@
     "Main Driver.md",
     "home.md",
     "010 CS1331 Exam 1 Recitation Notes.md",
-    "Pasted image 20230915112944.png",
     "netlify.toml",
     "New Text Document.txt",
     "Recitation Slides - Important or Tricks.pdf",

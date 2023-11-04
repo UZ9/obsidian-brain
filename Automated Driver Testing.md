@@ -74,7 +74,7 @@ To solve the last two issues, the script initially used the following methodolog
 4. If the line happens to be code, add it to the code lines list 
 5. At the end of parsing all `.java` files, write to `Driver.java` using the schema shown above 
 
-This ended up working perfectly! ...only for HW4 and HW5.
+This ended up working perfectly! ...for HW4 and HW5.
 
 ##### (as of HW6) Data files 
 As I mentioned above, the second issue was being able to store relevant `.txt` files on our end to cross reference a test's output, e.g. a `PrintWriter`. Once again, the issue is that we *can't* distribute text files. 
@@ -116,4 +116,101 @@ New annotations arriving for HW6:
 - `@InjectData` - Injects data from `.txt` and inserts it into a String. This ended up being a massive change **and is the secret sauce to data files**.
 
 ##### Test Functions
-In order to actually **assert** whether some sort of snippet has passed or 
+In order to actually **assert** whether some sort of snippet has passed or not, we need some sort of way of comparing a multitude of different values, while using that to determine whether a test has been passed or not.
+
+To do this, we utilize custom Test exceptions thrown when a test fails:
+```java
+// Strings are different values, throw exception
+throw new TestFailedException("Strings different! Received " + actualString + " but expected " + expectedString);
+```
+
+These are then caught later and processed as either failed or passed tests. More on that later!
+
+### Back to data files
+Now that Java Annotations have been roughly explained, we can go back to the implementation of data files.
+
+Example scenario: The user has code that needs to be tested. The code does the following:
+1. Counts from 1 to 10 and puts this into a `List<Integer>`
+2. Uses a `PrintWriter` to write this to `Numbers.txt`
+
+The main test case for checking whether the user has successfully put in the correct numbers would be retrieving their output using a `Scanner`, and comparing it to the expected values.
+
+However, this can be incredibly cumbersome if we had to write this in a String, similarly to our other test cases:
+```java
+// This is terrible.
+String expectedOutput = "1\n2\n3\n4\n5\n6\n7\n8\n9\n10";
+```
+
+Instead, what if we had a way of keeping our own `TestData.txt`, and we were able to compare their output to that text file? Recall we have the single file issue, so this would have to be streamlined in some way.
+
+Enter: The new `@InjectData` annotation:
+```java
+class TxtTestData {
+    @InjectData(name = "TestData.txt")
+    public static String DATA = "";
+}
+```
+
+`TxtTestData` is an example of what I now call a **Data class**. A data class is a class explicitly registered to the `TestManager` (we'll get to it, don't worry) that contains one or more data inputs (we might rename `@InjectData` to `@DataInput`, not too sure yet)
+
+The `TestManager` allows a data class to be registered using the following method:
+```java
+public static void registerDataClasses(Class<?>... classes);
+```
+
+During runtime, it does the following:
+1. For each data class, scan for all fields with the `InspectData` annotation
+2. For each field, enforce public visibility, and start a new Scanner with the path being `name`
+3. Loop through and convert the scanner's output to a single string with `\n` delimiter 
+4. Replace the value of the field with the scanned output--in the example above, `DATA` would be set to whatever contents `TestData.txt` contained 
+5. Run the tests with the new pulled data
+
+This now allows us to *really* easily compare test cases to a `PrintWriter`: 
+```java
+TestFunction.assertEqual(output, TxtTestData.DATA);
+```
+
+where `DATA` would be populated using Reflection (more on that in the Reflection section).
+
+##### That still doesn't solve the one file issue 2: Electric Boogaloo
+...because there's always something else!
+
+The issue is that if we export this to a single `.java` file we quite literally cannot export a `.txt` with it--as that would be violating one one of our restrictions.
+
+Just a tad ago I mentioned this was really bad to write:
+```java
+// This is terrible.
+String expectedOutput = "1\n2\n3\n4\n5\n6\n7\n8\n9\n10";
+```
+
+...but what if we ALSO got the python script to do this for us?
+
+
+```
+class TxtTestData {
+    @InjectData(name = "TestData.txt") <-- InjectData found with "TestData.txt", signal injection
+    public static String DATA = ""; <-- Injection prepared, fire injection sequence into DATA
+}
+```
+
+The process is more or less the following:
+1. While parsing each line in a `.java` file, attempt to find a line with the `@InjectData` annotation
+2. If the `@InjectData` annotation is found, override default behavior and parse the value between the quotation marks using regular expressions 
+3. Set the injection path to be the `name` value, in this case being "TestData.txt"
+4. On the next line, the system knows the injection path has been populated and attempts to do the following:
+	1. Open the specified path -> `TestData.txt`
+	2. Pull all lines of data from the txt and combine into one string with `\n` delimiter
+	3. Parse the line using regular expressions to retrieve `public static String DATA = `
+	4. Append `\" + fileContents \";` to the parsed string
+	5. Set the current code line for writing to be the implemented string
+
+This results in the following when converted to a single file:
+```java
+//AUTOGENERATED FROM ../src/TxtTestData.java
+
+class TxtTestData {
+    public static String DATA = "1\n2\n3\n4\n5\n6\n7\n8\n9\n10";
+}
+```
+
+and everything works! In this case, because we are technically doing this at a "psuedo compile time" the `InjectData` is no longer used in the compressed Driver output.
