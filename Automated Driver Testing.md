@@ -3,7 +3,7 @@
 Written by Ryder Johnson, 11/3/23
 
 ### Preface
-This document is *long*. When I started writing this I really didn't quite grasp how many features nuances we've built over the last few weeks, but I hope that anyone who was interested in learning more can take a look!
+This document is *long*. When I started writing this I really didn't quite grasp how many features and nuances we've built over the last few weeks, but I hope that anyone who was interested in the behind-the-scenes can find a treasure trove of information here. Cheers!
 
 
 ![[Pasted image 20231103190623.png]]
