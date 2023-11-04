@@ -2,6 +2,10 @@
 
 Written by Ryder Johnson, 11/3/23
 
+### Preface
+This document is *long*. When I started writing this I really didn't quite grasp how many features nuances we've built over the last few weeks, but I hope that anyone who was interested in learning more can take a look!
+
+
 ![[Pasted image 20231103190623.png]]
 ### Introduction
 CS1331 Homework assignments can be quite unforgiving. From what feels like hundreds of possible constructors to the many, *many* edge cases, the tests required for each component has exponentially increased with every week--with a desperate need for a streamlined process.
@@ -350,4 +354,107 @@ We then can create a list of TestContainers form all of the registered Tests:
 		runnables.add(new TestContainer(testClass));
 
 	}
+```
+
+For actually sending these runnables to their own threads, we can make use of Java's `ThreadPoolExecutor`:
+
+```java
+ExecutorService executor = Executors.newFixedThreadPool(5);
+```
+
+For submitting these, I've gone ahead and annotated the following code:
+```java
+for (Runnable r : runnables) {
+	// Future<T> is a way of saying "I want the result in X amount of time" 
+	Future<?> future = executor.submit(r);
+	
+	try {
+		// We try to get the result within 10 seconds. If you DON'T give it in 10 seconds, throw a TimeoutException
+		future.get(10, TimeUnit.SECONDS);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	} catch (ExecutionException e) {
+		e.getCause().printStackTrace();
+	} catch (TimeoutException e) {
+		// Test took too long, tell them
+		future.cancel(true);
+
+
+
+		System.out.println(ColorUtils.formatColorString(AsciiColorCode.BRIGHT_RED_BACKGROUND,
+
+				AsciiColorCode.BRIGHT_WHITE_FOREGROUND, " FAILED: \u00BB ")
+
+				+ " A test failed by exceeding the time limit. You likely have an infinite loop somewhere.");
+
+
+		// Intentionally crash the system to prevent them from doing more harm
+		System.exit(-1);
+
+	}
+
+}
+```
+
+##### Thread safety
+One of the elements we have to be careful about when using multiple threads is thread safety. Put simply: multiple threads accessing or writing to the same information at the same time is really not a good idea.
+
+The solution: `Atomics`. 
+
+Think of atomics as a way to synchronize the retrieval and setting of values. In this scenario, we use `AtomicInteger` numbers for the test cases, where each test uses methods such as these when updating the values:
+```java
+// set is a method of AtomicInteger
+// get is a method of AtomicInteger
+TestManager.classTests.set(TestManager.classTests.get() + classTests);
+```
+
+##### Printing the end result
+Thankfully due to how we use the `ThreadPoolExecutor` in this scenario, we know exactly when the tests will end. All that is left is actually printing it to the terminal:
+
+```java
+StringUtils.printTextCentered("Test Results");
+
+System.out.println();
+
+StringUtils.printTextCentered(
+
+		String.format("TOTAL TESTS PASSED: %d/%d", classTests.get() - classTestsFailed.get(),
+
+				classTests.get()));
+
+StringUtils.printHorizontalLine();
+```
+
+### String Utilities
+Arguably the most straightforward part of the program, this contains a bunch of utilities we use everywhere in order to handle formatting, such as centering text:
+
+```java
+/**
+ * Prints centered text to the terminal.
+ *
+ * @param text The text to be centered
+ */
+public static void printTextCentered(String text) {
+	// HORIZONTAL_LINE_LENGTH is maximum width
+	// if line is
+	// xxxxxxxxxxxx
+	// We can pad the start of the string with half of the horizontal:
+	// xxxxxhelloxx
+	// The problem is that this doesn't account for the length of the string.
+	// We can add half of the string length as well to correct it:
+	// xxxxhelloxxxx = CENTERED! (or at least as close as it can get)
+	System.out.printf("%" + (HORIZONTAL_LINE_LENGTH / 2 + text.length() / 2) + "s%n", text);
+}
+```
+
+##### Horizontal Lines 
+In order to print completely straight lines, there's a symbol we can use for it:
+```java
+/**
+
+ * The ASCII character to use for horizontal lines
+
+ */
+
+public static final String HORIZONTAL_LINE_CHARACTER = "\u2500";
 ```
