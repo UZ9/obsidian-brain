@@ -126,6 +126,84 @@ throw new TestFailedException("Strings different! Received " + actualString + " 
 
 These are then caught later and processed as either failed or passed tests. More on that later!
 
+### Test black magic, colors, and other neat features
+There are some incredibly niche elements the driver does under the hood for formatting the tests, and this section aims to cover a few of them.
+
+##### Colors
+Colors can be *huge* for quickly checking whether a test has failed or not, and your terminal supports them! Somewhat.
+
+By default, most terminals don't use UTF-8 (unicode) formatting. This unfortunately means the symbols we're able to use is significantly limited but we *do* have one tool at our disposal: ASCII escape codes.
+
+![[Pasted image 20231103224227.png]]
+
+This of course looks like jibberish, but the underlining principle is that there are certain unicode symbols (we type them in java using `\u`) we're able to use to output color in the terminal.
+
+Internally we keep a massive list of different unicode colors to use, with a few of them being listed here:
+```java
+    public static final String BLACK_FOREGROUND = "\033[30m";
+    public static final String BLACK_BACKGROUND = "\033[40m";
+    public static final String RED_FOREGROUND = "\033[31m";
+    public static final String RED_BACKGROUND = "\033[41m";
+```
+
+Do note that there are separate color codes for the **background** (behind the text) and the **foreground** (the text itself).
+
+We made a nice little function for writing colored text here:
+```java
+	/**
+	* Formats a string to have both an ASCII foreground and background in terminal
+     *
+     * @param background The ASCII representation of the background color, pulled from AsciiColorCode
+     * @param foreground The ASCII representation of the foreground color, pulled from AsciiColorCode
+     * @param s The string to color
+     * @return The colored string
+     */
+    public static String formatColorString(String background, String foreground, String s) {
+
+        return foreground + background + s + AsciiColorCode.RESET_COLOR;
+}
+```
+
+##### IO Hijacking
+Another one of the big features we added was the ability to track `System.out.println` statements. This ended up being a utility class of its own labeled `IOHijacker`.
+
+`System.out` is actually an example of a `PrintStream` variable--in which there are several methods it overrides that determine "when they use `println` do this, or when they `printf` do that"
+
+`System.out` can also be changed! Using the incredibly useful `System.setOut(PrintStream);` method we're able to create our own custom PrintStream and do whatever we want with console output.
+
+Here's the custom PrintStream currently implemented:
+```java
+private PrintStream getRedirectedStream() {
+	return new PrintStream(System.out, true) {
+		@Override
+		public void print(String s) {
+			IOHijacker.appendMessage(s);
+		}
+
+		@Override
+		public PrintStream printf(String message, Object... args) {
+	    IOHijacker.appendMessage(String.format(message, args));
+
+			return this;
+
+		}
+
+		@Override
+		public void println(String s) {
+			IOHijacker.appendMessage(s + "\n");
+		}
+
+	};
+
+    }
+```
+
+##### IO Hijacker - Recording Functionality 
+Because we only want to hijack the System.out when we explicitly want to, the IO Hijacker uses a sort of recording system, where there is both an `enableRecording` to start recording the inputs, and `stopRecording` to stop and retrieve the output as a String. 
+
+To allow the IOHijacker to be used throughout all classes, have its own properties, but without any instance duplication, the IOHijacker is a Singleton. 
+
+
 ### Back to data files
 Now that Java Annotations have been roughly explained, we can go back to the implementation of data files.
 
@@ -214,3 +292,7 @@ class TxtTestData {
 ```
 
 and everything works! In this case, because we are technically doing this at a "psuedo compile time" the `InjectData` is no longer used in the compressed Driver output.
+
+### The dreaded TestManager
+This document is currently at 2000 words, and we haven't even gotten to the core Test loader!
+

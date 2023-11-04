@@ -270,7 +270,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5124969482422
+    "width": 407.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -388,6 +389,7 @@
   },
   "active": "6335a20064dc6f66",
   "lastOpenFiles": [
+    "Pasted image 20231103224227.png",
     "Automated Driver Testing.md",
     "Pasted image 20231103190623.png",
     "Pasted image 20231103184513.png",
