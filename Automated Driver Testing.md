@@ -294,5 +294,60 @@ class TxtTestData {
 and everything works! In this case, because we are technically doing this at a "psuedo compile time" the `InjectData` is no longer used in the compressed Driver output.
 
 ### The dreaded TestManager
-This document is currently at 2000 words, and we haven't even gotten to the core Test loader!
+This document is currently at 2500 words, and we haven't even gotten to the core Test loader!
 
+Here's a rough flow diagram of what happens when you run the Driver:
+![[MainDiagram.drawio.png]]
+
+##### How on earth does the annotation system work?
+The entirety of annotations is built on something known as Java reflection. Quite frankly, you *shouldn't* know or *ever* need to know it, but reflection gives your code the ability to look at other code... **ALL** of the other code. It doesn't matter if it's private, static, final, not even ran anywhere, reflection allows you to retrieve it.
+
+Reflection sends you down a *massive* can of worms that would require several essays on its own (this "overview" is already too long), but we can use it to **scan** a class for all fields or methods that might have a particular annotation.
+
+Here's a portion of the Test scenario:
+```java
+for (Method m : clazz.getMethods()) {
+	TestCase testCase = m.getAnnotation(TestCase.class);
+	Tip tip = m.getAnnotation(Tip.class);
+
+	if (testCase != null) {
+		try {
+			// Attempt to invoke method
+			m.invoke(instance);
+			// ...
+```
+
+
+In this case, we're looping over a class that happens to be registered at the start (using TestManager), where all methods are looped through and checked if they have the `TestCase` annotation. If they do, we try to **invoke** (run) the method, and catch for any errors. We catch for many different potential exceptions, but the main one is the `TestFailedException` previously mentioned.
+
+##### How tests accidentally got multithreaded
+It all started when someone left an Ed Discussion post regarding the tests "only working half of the time" where it wouldn't show any result whatsoever. The issue ended up being an infinite while loop in their code, resulting in nothing ever being able to be thrown.
+
+So how do you check if there's an infinite loop and prevent it? You can't. There isn't any way of systematically detecting 100% that the code they run is in a while loop, but what we *can* do is check if their code takes a significant amount of time to run. This inconveniently requires the code to be on a separate thread, requiring some sort of threaded solution where we can figure out how long a thread might be running. 
+
+##### How tests are containerized
+Each class is thrown into what is known in Java as a `Runnable` -- essentially a way of calling a method without necessarily knowing what that method might do.
+
+The `TestContainer` is a custom type of `Runnable` with the following constructor:
+```java
+/**
+ * Initializes a new TestContainer. A TestContainer is used to prevent certain edge cases such as infinite loops.
+ *
+ * If an infinite loop occurs, the test will timeout and notify the user accordingly.
+ * @param clazz The class containing the tests
+ */
+public TestContainer(Class<?> clazz) {
+	this.clazz = clazz;
+}
+```
+
+As the test has to have access to the provided Class methods, it is a required argument to initialize a TestContainer.
+
+We then can create a list of TestContainers form all of the registered Tests:
+```java
+	for (Class<?> testClass : testClazzes) {
+
+		runnables.add(new TestContainer(testClass));
+
+	}
+```
