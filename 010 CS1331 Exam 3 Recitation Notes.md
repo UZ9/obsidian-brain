@@ -1,4 +1,11 @@
 [[010 CS1331 MOC]]
+
+Topics:
+[[File IO]]
+[[Exceptions]]
+[[Bubble Sort]]
+[[Insertion Sort]]
+[[Selection Sort]]
 # Recitation 9
 
 ### Interfaces 

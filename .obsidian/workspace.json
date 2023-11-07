@@ -187,12 +187,8 @@
             "id": "2e9af3ee4d4156b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -270,8 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5124969482422,
-    "collapsed": true
+    "width": 407.5124969482422
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -287,7 +282,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +298,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,9 +319,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -389,9 +380,9 @@
   },
   "active": "2e9af3ee4d4156b1",
   "lastOpenFiles": [
+    "010 CS1331 Exam 3 Recitation Notes.md",
     "Bubble Sort.md",
     "Selection Sort.md",
-    "010 CS1331 Exam 3 Recitation Notes.md",
     "Insertion Sort.md",
     "Exceptions.md",
     "File IO.md",
