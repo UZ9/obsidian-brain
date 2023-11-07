@@ -969,7 +969,7 @@ Why abstract?
 - Reuse code
 - Not every object needs to be instantiable
 	- No point in declaring a Shape, it doesn't have an area!
-
+``
 
 ### Polymorphism
 ![[Pasted image 20231018011447.png]]

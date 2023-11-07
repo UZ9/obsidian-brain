@@ -214,13 +214,13 @@
               "type": "markdown",
               "state": {
                 "file": "Automated Driver Testing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -287,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Automated Driver Testing.md",
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Automated Driver Testing.md",
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Automated Driver Testing.md"
+                "file": "010 CS1331 Exam 3 Recitation Notes.md"
               }
             }
           },
@@ -366,11 +366,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 475.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -382,27 +382,28 @@
       "command-palette:Open command palette": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-book-search-plugin:Create new book note": false
+      "obsidian-book-search-plugin:Create new book note": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "6335a20064dc6f66",
+  "active": "2e9af3ee4d4156b1",
   "lastOpenFiles": [
+    "Pasted image 20231107105751.png",
+    "Pasted image 20231107105411.png",
+    "Pasted image 20231107105350.png",
+    "Pasted image 20231107105126.png",
+    "Pasted image 20231107105026.png",
+    "Pasted image 20231107104942.png",
+    "Pasted image 20231107104843.png",
+    "010 CS1331 Exam 2 Recitation Notes.md",
+    "010 CS1331 Exam 3 Recitation Notes.md",
+    "Automated Driver Testing.md",
+    "Automated Driver Testing.pdf",
     "MainDiagram.drawio.png",
     "Pasted image 20231103224227.png",
-    "Automated Driver Testing.md",
     "Pasted image 20231103190623.png",
     "Pasted image 20231103184513.png",
-    "Pasted image 20231103184426.png",
-    "010 CS1331 Exam 3 Recitation Notes.md",
-    "Pasted image 20231102165026.png",
-    "Pasted image 20231102164611.png",
-    "Pasted image 20231102164503.png",
-    "Pasted image 20231102163300.png",
-    "Pasted image 20231102163241.png",
-    "Pasted image 20231102155328.png",
-    "010 CS1331 Exam 2 Recitation Notes.md",
     "010 CS1331 MOC.md",
     "Main Driver.md",
     "home.md",
@@ -435,7 +436,6 @@
     "Templates",
     "Excalidraw",
     "007 Resources/PDF/biological-effects-childhood-trauma.pdf",
-    "007 Resources/PDF/Unconfirmed 648499.crdownload",
-    "007 Resources/PDF"
+    "007 Resources/PDF/Unconfirmed 648499.crdownload"
   ]
 }
