@@ -11,17 +11,9 @@
             "id": "819ac2417ea1a7ae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "0b2ea24b9bc963cc",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "11-15-23 ECE 2020 Lecture.md",
+                "file": "010 CS1331 Exam Final Recitation Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 CS1331 Exam 4 Recitation Notes.md",
+                "file": "010 CS1331 Exam Final Recitation Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-15-23 ECE 2020 Lecture.md",
+                "file": "010 CS1331 Exam Final Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-15-23 ECE 2020 Lecture.md",
+                "file": "010 CS1331 Exam Final Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-15-23 ECE 2020 Lecture.md"
+                "file": "010 CS1331 Exam Final Recitation Notes.md"
               }
             }
           },
@@ -242,20 +233,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0b2ea24b9bc963cc",
+  "active": "819ac2417ea1a7ae",
   "lastOpenFiles": [
+    "Pasted image 20231201220732.png",
+    "Pasted image 20231201220721.png",
+    "Pasted image 20231201220705.png",
+    "Pasted image 20231126164431.png.md",
+    "010 CS1331 Exam Final Recitation Notes.md",
+    "Pasted image 20231201220637.png",
+    "Pasted image 20231201220626.png",
+    "Pasted image 20231201220617.png",
+    "Pasted image 20231201220608.png",
+    "11-15-23 ECE 2020 Lecture.md",
     "010 CS1331 Checkstyle IntelliJ Guide.md",
     "CheckstyleToolsImage.png",
     "010 CS1331 Exam 3 Recitation Notes.md",
     "JavaFX.md",
     "Pasted image 20231126155422.png.md",
-    "010 CS1331 Exam 4 Recitation Notes.md",
     "CheckstyleImage1.png",
     "010 CS1331 MOC.md",
     "Interfaces.md",
     "010 CS1331 Exam 1 Recitation Notes.md",
     "Oorts.md",
-    "11-15-23 ECE 2020 Lecture.md",
     "Pasted image 20231115102642.png",
     "Pasted image 20231115095735.png",
     "Abstract vs Interface.md",
@@ -272,13 +271,6 @@
     "File IO.md",
     "File IO Exceptions.md",
     "Recursion.md",
-    "Merge Sort.md",
-    "Pasted image 20231107161818.png",
-    "Pasted image 20231107161809.png",
-    "Pasted image 20231107161753.png",
-    "Pasted image 20231107105751.png",
-    "Pasted image 20231107105411.png",
-    "Pasted image 20231107105350.png",
     "Automated Driver Testing.pdf",
     "netlify.toml",
     "New Text Document.txt",
