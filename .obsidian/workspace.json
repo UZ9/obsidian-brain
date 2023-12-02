@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
+                "file": "11-15-23 ECE 2020 Lecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
+                "file": "11-15-23 ECE 2020 Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
+                "file": "11-15-23 ECE 2020 Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 CS1331 Checkstyle IntelliJ Guide.md"
+                "file": "11-15-23 ECE 2020 Lecture.md"
               }
             }
           },
@@ -220,7 +220,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -243,12 +244,12 @@
   },
   "active": "0b2ea24b9bc963cc",
   "lastOpenFiles": [
+    "010 CS1331 Checkstyle IntelliJ Guide.md",
     "CheckstyleToolsImage.png",
     "010 CS1331 Exam 3 Recitation Notes.md",
     "JavaFX.md",
     "Pasted image 20231126155422.png.md",
     "010 CS1331 Exam 4 Recitation Notes.md",
-    "010 CS1331 Checkstyle IntelliJ Guide.md",
     "CheckstyleImage1.png",
     "010 CS1331 MOC.md",
     "Interfaces.md",
@@ -278,7 +279,6 @@
     "Pasted image 20231107105751.png",
     "Pasted image 20231107105411.png",
     "Pasted image 20231107105350.png",
-    "Pasted image 20231107105126.png",
     "Automated Driver Testing.pdf",
     "netlify.toml",
     "New Text Document.txt",
