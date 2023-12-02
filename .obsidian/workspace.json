@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "819ac2417ea1a7ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010 CS1331 Exam Final Recitation Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5272a327b785f288",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pasted image 20231126155422.png.md",
+                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -233,30 +221,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "819ac2417ea1a7ae",
+  "active": "5272a327b785f288",
   "lastOpenFiles": [
+    "Pasted image 20231126164431.png.md",
+    "010 CS1331 Checkstyle IntelliJ Guide.md",
+    "Pasted image 20231126155422.png.md",
+    "010 CS1331 Exam Final Recitation Notes.md",
     "Pasted image 20231201220732.png",
     "Pasted image 20231201220721.png",
     "Pasted image 20231201220705.png",
-    "Pasted image 20231126164431.png.md",
-    "010 CS1331 Exam Final Recitation Notes.md",
     "Pasted image 20231201220637.png",
     "Pasted image 20231201220626.png",
     "Pasted image 20231201220617.png",
     "Pasted image 20231201220608.png",
     "11-15-23 ECE 2020 Lecture.md",
-    "010 CS1331 Checkstyle IntelliJ Guide.md",
     "CheckstyleToolsImage.png",
     "010 CS1331 Exam 3 Recitation Notes.md",
     "JavaFX.md",
-    "Pasted image 20231126155422.png.md",
     "CheckstyleImage1.png",
     "010 CS1331 MOC.md",
     "Interfaces.md",
     "010 CS1331 Exam 1 Recitation Notes.md",
     "Oorts.md",
     "Pasted image 20231115102642.png",
-    "Pasted image 20231115095735.png",
     "Abstract vs Interface.md",
     "Generics -- Basics.md",
     "Comparable (Interface).md",
