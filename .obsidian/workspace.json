@@ -4,187 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d30459cb3896f1d3",
+        "id": "2d243fce3c259e8d",
         "type": "tabs",
         "children": [
           {
-            "id": "5e0efb5593cdbe04",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4b4a5539cbe5c94a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "51a56027053b6313",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "829c7a015ab6e2de",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2bb0c0fb6c6bfae8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0ccb99019c771c4d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ffbbc3134c426845",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e8529add9acd89fc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "52cd15db977d859c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "591981ee0c6237cc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "25e53c70713b65de",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "9b03524823c44d22",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2577cffdb43b5bda",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c449a9dd0edca971",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7f4993f4a98086d7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "70f49bf788317062",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "680019121e6d69c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30a9120aa8bf81ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010 CS1331 MOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1312067fa4d97cfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010 CS1331 MOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c94703287ffbf54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010 CS1331 Exam 2 Recitation Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e9af3ee4d4156b1",
+            "id": "819ac2417ea1a7ae",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -192,31 +16,67 @@
             }
           },
           {
-            "id": "89707ba67ad86165",
+            "id": "0b2ea24b9bc963cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automated Driver Testing.md",
+                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6335a20064dc6f66",
+            "id": "5272a327b785f288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automated Driver Testing.md",
-                "mode": "preview",
+                "file": "010 CS1331 Exam 4 Recitation Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2975fc146a7e89a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pasted image 20231126155422.png.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "211097b140031b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaFX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9daa22df3ac2ead4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interfaces.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "landry",
+                "query": "propagation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -266,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5124969482422
+    "width": 403.5086555480957
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -282,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,6 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "010 CS1331 Checkstyle IntelliJ Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "010 CS1331 Checkstyle IntelliJ Guide.md"
+              }
             }
           },
           {
@@ -356,12 +220,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 367.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -378,48 +241,48 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2e9af3ee4d4156b1",
+  "active": "0b2ea24b9bc963cc",
   "lastOpenFiles": [
+    "CheckstyleToolsImage.png",
     "010 CS1331 Exam 3 Recitation Notes.md",
-    "Bubble Sort.md",
+    "JavaFX.md",
+    "Pasted image 20231126155422.png.md",
+    "010 CS1331 Exam 4 Recitation Notes.md",
+    "010 CS1331 Checkstyle IntelliJ Guide.md",
+    "CheckstyleImage1.png",
+    "010 CS1331 MOC.md",
+    "Interfaces.md",
+    "010 CS1331 Exam 1 Recitation Notes.md",
+    "Oorts.md",
+    "11-15-23 ECE 2020 Lecture.md",
+    "Pasted image 20231115102642.png",
+    "Pasted image 20231115095735.png",
+    "Abstract vs Interface.md",
+    "Generics -- Basics.md",
+    "Comparable (Interface).md",
     "Selection Sort.md",
     "Insertion Sort.md",
+    "ArrayList.md",
+    "Asymptotics and Big-O.md",
+    "Binary Search.md",
+    "Linear Search.md",
+    "Bubble Sort.md",
     "Exceptions.md",
     "File IO.md",
+    "File IO Exceptions.md",
+    "Recursion.md",
+    "Merge Sort.md",
+    "Pasted image 20231107161818.png",
+    "Pasted image 20231107161809.png",
+    "Pasted image 20231107161753.png",
     "Pasted image 20231107105751.png",
     "Pasted image 20231107105411.png",
     "Pasted image 20231107105350.png",
     "Pasted image 20231107105126.png",
-    "Pasted image 20231107105026.png",
-    "Pasted image 20231107104942.png",
-    "Pasted image 20231107104843.png",
-    "010 CS1331 Exam 2 Recitation Notes.md",
-    "Automated Driver Testing.md",
     "Automated Driver Testing.pdf",
-    "MainDiagram.drawio.png",
-    "Pasted image 20231103224227.png",
-    "Pasted image 20231103190623.png",
-    "010 CS1331 MOC.md",
-    "Main Driver.md",
-    "home.md",
-    "010 CS1331 Exam 1 Recitation Notes.md",
     "netlify.toml",
     "New Text Document.txt",
     "Recitation Slides - Important or Tricks.pdf",
-    "Habits/Pomodoro Tracker.md",
-    "The Biological Effects of Childhood Trauma.md",
-    "2023-11-01.md",
-    "2023-10-31.md",
-    "2023-10-25.md",
-    "2023-09-26 - Landry Quotes.md",
-    "2023-10-24.md",
-    "2023-10-19.md",
-    "004 Habits/Productivity Tracker.md",
-    "Untitled 4.md",
-    "2023-10-18.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "2023-10-17.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "008 Books",
