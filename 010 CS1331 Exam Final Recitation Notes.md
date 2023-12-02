@@ -1,9 +1,9 @@
-[[[010 CS1331 MOC]]
+[[010 CS1331 MOC]]
 
 The final is **cumulative**. Along with the recitation notes provided here, you are expected to know everything from the following documents:
-- [[CS1331 Exam 1 Recitation Notes]]
-- [[CS1331 Exam 2 Recitation Notes]]
-- [[CS1331 Exam 3 Recitation Notes]]
+- [[010 CS1331 Exam 1 Recitation Notes]]
+- [[010 CS1331 Exam 2 Recitation Notes]]
+- [[010 CS1331 Exam 3 Recitation Notes]]
 
 *IMPORTANT* You are EXPECTED to know how to compile with modules.
 
