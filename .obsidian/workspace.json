@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 CS1331 Exam Final Recitation Notes.md",
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5086555480957
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "010 CS1331 Exam Final Recitation Notes.md",
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "010 CS1331 Exam Final Recitation Notes.md",
+                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 CS1331 Exam Final Recitation Notes.md"
+                "file": "010 CS1331 Exam 3 Recitation Notes.md"
               }
             }
           },
@@ -204,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,10 +224,33 @@
   },
   "active": "5272a327b785f288",
   "lastOpenFiles": [
+    "Pasted image 20231204190833.png",
+    "Pasted image 20231204190533.png",
+    "Pasted image 20231204165625.png",
+    "Pasted image 20231204121054.png",
+    "Selection Sort.md",
+    "010 CS1331 Exam 3 Recitation Notes.md",
+    "Abstract vs Interface.md",
+    "010 CS1331 Exam 1 Recitation Notes.md",
+    "010 CS1331 Exam Final Recitation Notes.md",
+    "Merge Sort.md",
+    "Recursion.md",
+    "File IO.md",
+    "File IO Exceptions.md",
+    "Exceptions.md",
+    "Insertion Sort.md",
+    "Bubble Sort.md",
+    "Binary Search.md",
+    "Linear Search.md",
+    "Asymptotics and Big-O.md",
+    "Generics -- Basics.md",
+    "ArrayList.md",
+    "Comparable (Interface).md",
+    "Interfaces.md",
+    "Oorts.md",
     "Pasted image 20231126164431.png.md",
     "010 CS1331 Checkstyle IntelliJ Guide.md",
     "Pasted image 20231126155422.png.md",
-    "010 CS1331 Exam Final Recitation Notes.md",
     "Pasted image 20231201220732.png",
     "Pasted image 20231201220721.png",
     "Pasted image 20231201220705.png",
@@ -235,29 +259,7 @@
     "Pasted image 20231201220617.png",
     "Pasted image 20231201220608.png",
     "11-15-23 ECE 2020 Lecture.md",
-    "CheckstyleToolsImage.png",
-    "010 CS1331 Exam 3 Recitation Notes.md",
     "JavaFX.md",
-    "CheckstyleImage1.png",
-    "010 CS1331 MOC.md",
-    "Interfaces.md",
-    "010 CS1331 Exam 1 Recitation Notes.md",
-    "Oorts.md",
-    "Pasted image 20231115102642.png",
-    "Abstract vs Interface.md",
-    "Generics -- Basics.md",
-    "Comparable (Interface).md",
-    "Selection Sort.md",
-    "Insertion Sort.md",
-    "ArrayList.md",
-    "Asymptotics and Big-O.md",
-    "Binary Search.md",
-    "Linear Search.md",
-    "Bubble Sort.md",
-    "Exceptions.md",
-    "File IO.md",
-    "File IO Exceptions.md",
-    "Recursion.md",
     "Automated Driver Testing.pdf",
     "netlify.toml",
     "New Text Document.txt",

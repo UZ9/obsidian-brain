@@ -1,4 +1,6 @@
 [[010 CS1331 MOC]]
+
+Ryder Johnson
 # Recitation 1
 - javac = compile a .java class -> .class file(s)
 - java = run already compiled .class files
