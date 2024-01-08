@@ -4,6 +4,6 @@
     "dashboard",
     "dashboard-ReadLineLength"
   ],
-  "cssTheme": "",
+  "cssTheme": "Catppuccin",
   "baseFontSize": 15
 }

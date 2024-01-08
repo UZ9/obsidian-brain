@@ -20,6 +20,25 @@
             }
           },
           {
+            "id": "ad24c9d15463abd6",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/themes/Catppuccin/theme.css",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "bfeeec4ef9b3ff35",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "2975fc146a7e89a4",
             "type": "leaf",
             "state": {
@@ -42,20 +61,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9daa22df3ac2ead4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interfaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -122,7 +129,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +145,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +166,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,7 +183,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -222,16 +227,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5272a327b785f288",
+  "active": "8fa3b9632453aa08",
   "lastOpenFiles": [
+    "Automated Driver Testing.pdf",
+    "011 CS1332 Lecture Notes.md",
+    "010 CS1331 Exam 1 Recitation Notes.md",
+    "Abstract vs Interface.md",
+    "JavaFX.md",
+    "Finals Exam.md",
+    "010 CS1331 Exam 3 Recitation Notes.md",
     "Pasted image 20231204190833.png",
     "Pasted image 20231204190533.png",
     "Pasted image 20231204165625.png",
     "Pasted image 20231204121054.png",
     "Selection Sort.md",
-    "010 CS1331 Exam 3 Recitation Notes.md",
-    "Abstract vs Interface.md",
-    "010 CS1331 Exam 1 Recitation Notes.md",
     "010 CS1331 Exam Final Recitation Notes.md",
     "Merge Sort.md",
     "Recursion.md",
@@ -250,17 +259,12 @@
     "Oorts.md",
     "Pasted image 20231126164431.png.md",
     "010 CS1331 Checkstyle IntelliJ Guide.md",
-    "Pasted image 20231126155422.png.md",
     "Pasted image 20231201220732.png",
     "Pasted image 20231201220721.png",
     "Pasted image 20231201220705.png",
     "Pasted image 20231201220637.png",
     "Pasted image 20231201220626.png",
     "Pasted image 20231201220617.png",
-    "Pasted image 20231201220608.png",
-    "11-15-23 ECE 2020 Lecture.md",
-    "JavaFX.md",
-    "Automated Driver Testing.pdf",
     "netlify.toml",
     "New Text Document.txt",
     "Recitation Slides - Important or Tricks.pdf",
