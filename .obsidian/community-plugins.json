@@ -11,5 +11,6 @@
   "obsidian-annotator",
   "obsidian-excalidraw-plugin",
   "obsidian-book-search-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "auto-note-mover"
 ]
