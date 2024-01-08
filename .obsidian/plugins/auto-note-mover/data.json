@@ -17,6 +17,16 @@
       "folder": "011 ECE2020",
       "tag": "",
       "pattern": "ECE2020"
+    },
+    {
+      "folder": "100 Physics",
+      "tag": "#physics",
+      "pattern": ""
+    },
+    {
+      "folder": "021 CS1332",
+      "tag": "",
+      "pattern": "CS1332"
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,
