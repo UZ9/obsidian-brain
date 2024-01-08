@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 CS1331 Exam 3 Recitation Notes.md",
+                "file": "Main Driver.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/themes/Catppuccin/theme.css",
+                "file": "011 CS1332 Lecture Notes.md",
                 "staged": false
               }
             }
@@ -62,8 +62,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Driver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Driver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Driver.md"
+              }
             }
           },
           {
@@ -227,15 +230,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8fa3b9632453aa08",
+  "active": "5272a327b785f288",
   "lastOpenFiles": [
-    "Automated Driver Testing.pdf",
     "011 CS1332 Lecture Notes.md",
     "010 CS1331 Exam 1 Recitation Notes.md",
+    "010 CS1331 Exam 3 Recitation Notes.md",
+    "Automated Driver Testing.pdf",
     "Abstract vs Interface.md",
     "JavaFX.md",
     "Finals Exam.md",
-    "010 CS1331 Exam 3 Recitation Notes.md",
     "Pasted image 20231204190833.png",
     "Pasted image 20231204190533.png",
     "Pasted image 20231204165625.png",
