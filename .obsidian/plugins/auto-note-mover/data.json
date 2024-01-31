@@ -42,6 +42,11 @@
       "folder": "023 ENGL1102",
       "tag": "",
       "pattern": "ENGL1102"
+    },
+    {
+      "folder": "024 ECE1100",
+      "tag": "",
+      "pattern": "ECE1100"
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,

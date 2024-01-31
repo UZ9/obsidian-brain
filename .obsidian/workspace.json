@@ -127,7 +127,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md",
+                "file": "024 ECE1100/024 ECE1100 Lecture Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md",
+                "file": "024 ECE1100/024 ECE1100 Lecture Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md",
+                "file": "024 ECE1100/024 ECE1100 Lecture Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md"
+                "file": "024 ECE1100/024 ECE1100 Lecture Notes.md"
               }
             }
           },
@@ -287,12 +287,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "75c4ffc21460e1aa",
+  "active": "acc8665d420078b0",
   "lastOpenFiles": [
+    "021 CS1332/CS1332 Exam 1 Study Guide.md",
+    "024 ECE1100",
     "021 CS1332/~$CS1332 Exam 1 Study Guide.pptx",
     "021 CS1332/CS1332 Exam 1 Study Guide.pptx",
     "023 ENGL1102/Entries/023 ENGL1102 Entry 5 - The Cultural Importance of the Arts.md",
-    "021 CS1332/CS1332 Exam 1 Study Guide.md",
     "023 ENGL1102/Entries/023 ENGL1102 Entry 1.md",
     "023 ENGL1102/Entries/023 ENGL1102 Entry 4.md",
     "023 ENGL1102/Entries/023 ENGL1102 Entry 8 The Very Idea of Critical and Creative Thinking.md",
@@ -328,8 +329,6 @@
     "999 Attachments/MainDiagram.drawio.png",
     "999 Attachments/CheckstyleImage1.png",
     "023 ENGL1102/SAR/023 ENGL1102 SAR 1 - The chaotic world of art definitions.aux",
-    "023 ENGL1102/SAR/023 ENGL1102 SAR 1 - The chaotic world of art definitions.log",
-    "023 ENGL1102/SAR/e.log",
     "999 Attachments/CheckstyleToolsImage.png",
     "999 Attachments/Pasted image 20230921013528.png",
     "999 Attachments/Pasted image 20231018000829.png",
