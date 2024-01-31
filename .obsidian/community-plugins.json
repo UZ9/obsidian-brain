@@ -11,6 +11,10 @@
   "obsidian-annotator",
   "obsidian-excalidraw-plugin",
   "obsidian-book-search-plugin",
-  "obsidian-git",
-  "auto-note-mover"
+  "auto-note-mover",
+  "obsidian-latex-suite",
+  "obsidian-pandoc",
+  "obsidian-toggl-integration",
+  "obsidian-tasks-plugin",
+  "3d-graph"
 ]

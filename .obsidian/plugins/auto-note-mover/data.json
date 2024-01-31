@@ -27,6 +27,21 @@
       "folder": "021 CS1332",
       "tag": "",
       "pattern": "CS1332"
+    },
+    {
+      "folder": "023 ENGL1102/Entries",
+      "tag": "",
+      "pattern": "ENGL1102 Entry"
+    },
+    {
+      "folder": "023 ENGL1102/SAR",
+      "tag": "",
+      "pattern": "ENGL1102 SAR"
+    },
+    {
+      "folder": "023 ENGL1102",
+      "tag": "",
+      "pattern": "ENGL1102"
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,

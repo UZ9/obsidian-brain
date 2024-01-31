@@ -11,6 +11,11 @@ You are expected to know the following:
 
 **Register file** - bank of registers = block of local memory on microprocessor
 - Each register is a 32-bit binary *word*
+![[Pasted image 20240108202919.png]]
+
+![[Pasted image 20240108203525.png]]
+
+
 
 **Addressable** - address used to specify which register to access
 ![[Pasted image 20240108173119.png]]

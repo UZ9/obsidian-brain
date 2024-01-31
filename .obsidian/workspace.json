@@ -4,65 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "2d243fce3c259e8d",
+        "id": "be97a5ccf0643786",
         "type": "tabs",
         "children": [
           {
-            "id": "5272a327b785f288",
+            "id": "21c01e1fabd61007",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "999 Attachments/MainDiagram.drawio.png"
+              }
+            }
+          },
+          {
+            "id": "1ee2084d3628613d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "022 ECE 2035/022 ECE2035 Pre-Course Review.md",
+                "file": "home.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ad24c9d15463abd6",
+            "id": "0372e01564789461",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "011 CS1332 Lecture Notes.md",
-                "staged": false
+                "file": "home.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "bfeeec4ef9b3ff35",
+            "id": "4df9bdb138219b40",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "markdown",
+              "state": {
+                "file": "023 ENGL1102/023 ENGL1102 Project Proposal Draft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1736bc87725ad413",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "022 ECE 2035/022 ECE2035 Lecture Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33e6b4ac6379c44a",
+            "type": "leaf",
+            "state": {
+              "type": "3d_graph_view",
               "state": {}
             }
           },
           {
-            "id": "2975fc146a7e89a4",
+            "id": "0fd7d6a0f05e8a47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 CS1331/010 CS1331 Checkstyle IntelliJ Guide.md",
+                "file": "023 ENGL1102/Entries/023 ENGL1102 Entry 7.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "211097b140031b41",
+            "id": "6dda296e0d82ae44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaFX.md",
+                "file": "023 ENGL1102/Entries/023 ENGL1102 Entry 8 The Very Idea of Critical and Creative Thinking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3966f69cf4ee7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "023 ENGL1102/Entries/023 ENGL1102 Entry 9 Music Compilation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c82626af4650e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "023 ENGL1102/Entries/023 ENGL1102 Entry 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acc8665d420078b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -91,7 +163,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "propagation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.0086555480957,
-    "collapsed": true
+    "width": 325.0086555480957
   },
   "right": {
     "id": "375aa4d2820bfaac",
@@ -129,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "022 ECE 2035/022 ECE2035 Pre-Course Review.md",
+                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "022 ECE 2035/022 ECE2035 Pre-Course Review.md",
+                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "022 ECE 2035/022 ECE2035 Pre-Course Review.md"
+                "file": "021 CS1332/CS1332 Exam 1 Study Guide.md"
               }
             }
           },
@@ -192,25 +263,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "f4cb27f0377287d3",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "8fa3b9632453aa08",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -228,57 +283,58 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-book-search-plugin:Create new book note": false,
+      "3d-graph:3D Graph": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "5272a327b785f288",
+  "active": "75c4ffc21460e1aa",
   "lastOpenFiles": [
-    "Pasted image 20240108173334.png",
-    "Pasted image 20240108173119.png",
-    "010 CS1331/010 CS1331 Exam 3 Recitation Notes.md",
-    "Pasted image 20231115095735.png",
-    "022 ECE 2035/022 ECE2035 Pre-Course Review.md",
-    "022 ECE 2035",
-    "Pasted image 20231201220721.png",
-    "Pasted image 20231204190533.png",
-    "Pasted image 20231204190833.png",
+    "021 CS1332/~$CS1332 Exam 1 Study Guide.pptx",
+    "021 CS1332/CS1332 Exam 1 Study Guide.pptx",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 5 - The Cultural Importance of the Arts.md",
+    "021 CS1332/CS1332 Exam 1 Study Guide.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 1.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 4.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 8 The Very Idea of Critical and Creative Thinking.md",
     "021 CS1332/021 CS1332 Lecture Notes.md",
-    "021 CS1332",
-    "Automated Driver Testing.pdf",
-    "100 Physics/Oorts.md",
-    "100 Physics",
-    "012 PHYS2211",
+    "Google Developer Student Clubs Solution Challenge.md",
+    "Google Developer Student Clubs Solution Challenge.html",
+    "Google Developer Student Clubs Solution Challenge.tex",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 10.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 9 Music Compilation.md",
+    "023 ENGL1102/SAR/023 ENGL1102 SAR 1 - The chaotic world of art definitions.md",
+    "023 ENGL1102/SAR/023 ENGL1102 SAR 2 - An unexpected love letter.md",
+    "022 ECE 2035/022 ECE2035 Lecture Notes.md",
+    "home.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 7.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 3.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 2.md",
+    "023 ENGL1102/Entries/023 ENGL1102 Entry 6.md",
+    "000 Templates/023 ENGL Reading Template.md",
+    "000 Templates/023 ENGL1102 Notebook Entry Template.md",
+    "023 ENGL1102/023 ENGL1102 MOC.md",
     "011 ECE2020/11-15-23 ECE2020 Lecture.md",
-    "011 ECE2020",
-    "010 CS1331/010 CS1331 Exam Final Recitation Notes.md",
-    "010 CS1331/010 CS1331 Exam 2 Recitation Notes.md",
-    "010 CS1331/010 CS1331 Exam 1 Recitation Notes.md",
-    "010 CS1331/010 CS1331 Checkstyle IntelliJ Guide.md",
-    "010 CS1331/010 CS1331 MOC.md",
-    "010 CS1331",
-    "Main Driver.md",
-    "Finals Exam.md",
-    "Abstract vs Interface.md",
-    "JavaFX.md",
-    "Pasted image 20231204165625.png",
-    "Pasted image 20231204121054.png",
-    "Selection Sort.md",
-    "Merge Sort.md",
-    "Recursion.md",
-    "File IO.md",
-    "File IO Exceptions.md",
-    "Exceptions.md",
-    "Insertion Sort.md",
-    "Bubble Sort.md",
-    "Binary Search.md",
-    "Linear Search.md",
-    "Asymptotics and Big-O.md",
-    "Pasted image 20231201220732.png",
-    "Pasted image 20231201220705.png",
-    "Pasted image 20231201220637.png",
-    "netlify.toml",
-    "New Text Document.txt",
-    "Recitation Slides - Important or Tricks.pdf",
+    "Pasted image 20240126141534.png",
+    "Pasted image 20240126141302.png",
+    "Pasted image 20240126140829.png",
+    "021 CS1332/021 CS1332 Lecture Notes.pdf",
+    "021 CS1332/CS1332 Recitation 2 Notes.md",
+    "023 ENGL1102/023 ENGL1102 Project Proposal Draft.md",
+    "023 ENGL1102/023 ENGL1102 Introduction Video Storyboard Notes.md",
+    "023 ENGL1102/ENGL1102-Langer-CulturalImportanceArts-1966.pdf",
+    "100 Physics/Oorts.md",
+    "023 ENGL1102/023 ENGL1102 Entry 1 PDF.pdf",
+    "023 ENGL1102/SAR/023 ENGL1102 SAR 1 - The chaotic world of art definitions.pdf",
+    "999 Attachments/MainDiagram.drawio.png",
+    "999 Attachments/CheckstyleImage1.png",
+    "023 ENGL1102/SAR/023 ENGL1102 SAR 1 - The chaotic world of art definitions.aux",
+    "023 ENGL1102/SAR/023 ENGL1102 SAR 1 - The chaotic world of art definitions.log",
+    "023 ENGL1102/SAR/e.log",
+    "999 Attachments/CheckstyleToolsImage.png",
+    "999 Attachments/Pasted image 20230921013528.png",
+    "999 Attachments/Pasted image 20231018000829.png",
+    "999 Attachments/Pasted image 20231103184513.png",
+    "999 Attachments/Pasted image 20231115095735.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

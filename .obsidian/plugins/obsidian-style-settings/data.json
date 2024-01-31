@@ -1,5 +1,9 @@
 {
   "blue-topaz-theme@@transparent-setting-panel": false,
   "blue-topaz-theme@@background-settings-workplace-background-image": true,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-honey-milk-topaz"
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-honey-milk-topaz",
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-color-toggle": true
 }
