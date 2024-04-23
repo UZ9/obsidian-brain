@@ -1,0 +1,1 @@
+- minimum spanning tree (MST) is a tree of undirected graphs that has **minimum cost** when connecting vertices

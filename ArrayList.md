@@ -1,3 +1,50 @@
+# 1332 ArrayList
+- Uses an array as the backing structure, **automatically resized when needed**
+- *size* - number of data stored
+- *capacity* - number stored without resize
+
+## Properties
+- **Must be** [[contiguous]] and zero-aligned
+- Size is stored in a variable for efficient operations, we use it for next empty spot in O(1)
+
+![[Pasted image 20240420160432.png]]
+
+## Resize Case
+- When the ArrayList size reaches capacity, we resize, typically to original capacity multiplied by two.
+- We create a new array with the resized capacity and move all elements from the previous array over, resulting in $O(n)$ time complexity.
+## Big-O
+### Add to Front - O(n)
+- Add to front requires shifting all elements over to keep contiguous property
+
+### Add at index - O(n)
+- Adding to an arbitrary index will require shifting all elements over to keep contiguous property
+
+
+
+### Add to Back - $O(1)*$
+- Because resizing is so rare for ArrayLists, saying that add to the back is $O(n)$ wouldn't be providing the entire picture. Instead, we use the [[amortized]] time complexity, or **cost over time**. Therefore adding to the back is $O(1)$ amortized, or $O(1)*$. 
+
+> [!warning] Potential confusion on wording
+> If the exam is asking for the **worst time complexity**, we ignore the amortized complexity. Adding to the back would be $O(n)$ due to the edge case.
+>
+>If the exam is asking for the **amortized** time complexity, the time complexity of adding to back is $O(1)$
+
+### Remove from Front - O(n)
+- Requires shifting all elements over to keep contiguous
+
+## Remove at index - O(n)
+- Requires shifting all elements over to keep contiguous
+
+## Remove from back - O(1)
+- No shifting required, we just set the last element index to null
+
+## Remove last occurrence - O(n)
+- Requires looping through the array to see what the last element is. We can optimize this by starting from the back of the array, but it will still be $O(n)$
+
+## Get anything (front, middle, back, index) - O(1)
+- ArrayList is index based, easy to access via array
+
+# 1331 ArrayList
 ### ArrayList
 IMPORT:
 ```java
