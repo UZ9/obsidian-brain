@@ -28,6 +28,7 @@
 	- *simple path* - no repeated vertices, no repeated edges
 	- *trail* - repeated vertices allowed, no repeated edges
 		- *circuit* - trail where first and last vertices are connected (adjacent)
+	- *cycle* - no repeated vertices allowed, no repeated edges
 	- *walk* - repeated vertices allowed, repeated edges allowed
 
 - *length of path* - number of edges traversed

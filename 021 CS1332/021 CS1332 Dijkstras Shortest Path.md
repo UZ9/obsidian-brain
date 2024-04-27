@@ -5,7 +5,7 @@
 - Uses a [[Heap (Priority Queue)]]
 - Assumes all weights are non-negative
 
-
+[[Dijkstras Diagramming Example]]
 # Algorithm Implementation
 - Keep a visited set of visited nodes
 - Keep a priority queue of vertices with their priority being the **cumulative distance**
@@ -16,4 +16,4 @@
 # Big-O
 - Reality check was using old value, **don't trust it**
 - The actual Big-O (confirmed by TA) is $O(|E| \log{|E|}$)
-  
+- [ ] find out why someone thought it was E + V
